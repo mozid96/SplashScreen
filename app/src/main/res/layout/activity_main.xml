@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.user.splashscreen.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#0ee412"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Friend one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="datapass"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Friend two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="datapass"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Friend three"
+        android:onClick="datapass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
